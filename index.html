@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agenda Educativa Digital 2026–2030 · Muy pronto</title>
+  <meta name="description" content="Se acerca la nueva Agenda Educativa Digital 2026–2030 del Ministerio de Educación, Deporte y Cultura del Ecuador: conectividad, competencias digitales, contenidos abiertos, innovación y comunidades digitales.">
+  <meta name="theme-color" content="#008BF6">
+  <meta property="og:title" content="Agenda Educativa Digital 2026–2030 · Muy pronto">
+  <meta property="og:description" content="La transformación digital de la educación ecuatoriana está por comenzar.">
+  <meta property="og:image" content="assets/img/gato.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23008BF6'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial' font-weight='900' font-size='28' text-anchor='middle' fill='%23F9CF00'%3EAE%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="brand" aria-label="Agenda Educativa Digital, inicio">
+      <span class="brand__mark">AE</span>
+      <span class="brand__dots" aria-hidden="true"></span>
+      <span class="brand__text">Agenda Educativa Digital<small>2026 – 2030</small></span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Secciones">
+      <a href="#que-es">¿Qué es?</a>
+      <a href="#camino">El camino</a>
+      <a href="#ejes">5 Ejes</a>
+      <a href="#lo-que-viene">Lo que viene</a>
+      <a href="#metas">Metas 2030</a>
+      <a href="#glosario">Glosario</a>
+    </nav>
+    <a href="#unete" class="btn btn--yellow nav__cta">Sé parte</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <canvas class="hero__net" id="heroNet" aria-hidden="true"></canvas>
+    <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+    <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow eyebrow--light"><span class="pulse"></span> Próximo lanzamiento · MINEDEC</p>
+        <h1 class="hero__title">
+          <span class="hero__ae" aria-hidden="true">AE<i class="hero__ae-dots"></i></span>
+          <span class="hero__name">Agenda Educativa Digital</span>
+          <span class="hero__years" aria-label="2026 a 2030"><b>2</b><b>0</b><b>2</b><b>6</b><b>–</b><b>2</b><b>0</b><b>3</b><b>0</b></span>
+        </h1>
+        <p class="hero__lead">
+          La educación ecuatoriana está por <strong class="type" data-words='["conectarse","transformarse","innovar","incluir a todos","dar el siguiente paso"]'>conectarse</strong><span class="caret" aria-hidden="true"></span>
+        </p>
+
+        <div class="launch" id="launch">
+          <div class="launch__label">Cargando la transformación digital educativa</div>
+          <div class="launch__bar"><span id="launchBar"></span></div>
+          <div class="launch__row">
+            <span id="launchPct">0%</span>
+            <span class="launch__soon" id="launchCountdown">Muy pronto</span>
+          </div>
+        </div>
+
+        <div class="hero__ctas">
+          <a href="#ejes" class="btn btn--yellow">Descubre los 5 ejes <span aria-hidden="true">→</span></a>
+          <a href="#que-es" class="btn btn--ghost">¿Qué se viene?</a>
+        </div>
+      </div>
+
+      <div class="hero__art" data-parallax-root>
+        <img class="hero__dots" src="assets/img/puntos.png" alt="" aria-hidden="true" data-depth="0.25">
+        <div class="hero__screen" aria-hidden="true" data-depth="0.6">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <img class="hero__cat" src="assets/img/gato.png" alt="Personaje de la Agenda Educativa Digital: un gato robot interactuando con una pantalla holográfica" data-depth="0.9">
+        <div class="hero__chip hero__chip--a" data-depth="1.3">🌐 Conectividad</div>
+        <div class="hero__chip hero__chip--b" data-depth="1.1">🤖 IA ética</div>
+        <div class="hero__chip hero__chip--c" data-depth="1.5">📚 REDA</div>
+      </div>
+    </div>
+
+    <a href="#que-es" class="hero__scroll" aria-label="Bajar a la siguiente sección"><span></span></a>
+    <div class="hero__floor" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Conectividad significativa</span><i>●</i><span>Competencias digitales</span><i>●</i><span>Ciudadanía digital</span><i>●</i><span>Inteligencia Artificial</span><i>●</i><span>Robótica educativa</span><i>●</i><span>REDA</span><i>●</i><span>Innovación basada en evidencia</span><i>●</i><span>Comunidades digitales</span><i>●</i><span>Lenguas ancestrales</span><i>●</i><span>Teleducación</span><i>●</i>
+      <span>Conectividad significativa</span><i>●</i><span>Competencias digitales</span><i>●</i><span>Ciudadanía digital</span><i>●</i><span>Inteligencia Artificial</span><i>●</i><span>Robótica educativa</span><i>●</i><span>REDA</span><i>●</i><span>Innovación basada en evidencia</span><i>●</i><span>Comunidades digitales</span><i>●</i><span>Lenguas ancestrales</span><i>●</i><span>Teleducación</span><i>●</i>
+    </div>
+  </div>
+
+  <!-- ============ QUÉ ES ============ -->
+  <section class="section about" id="que-es">
+    <div class="container about__grid">
+      <div class="about__art reveal" data-reveal="left">
+        <div class="about__ring" aria-hidden="true"></div>
+        <img src="assets/img/puntos.png" alt="" class="about__dots" aria-hidden="true">
+        <img src="assets/img/nina.png" alt="Personaje de la Agenda: estudiante con visor de realidad aumentada" class="about__girl float">
+        <div class="bubble reveal" data-reveal="pop" style="--d:.5s">¡Lo que viene<br>te va a encantar! ✌️</div>
+      </div>
+      <div class="about__copy">
+        <p class="eyebrow reveal">Una nueva hoja de ruta</p>
+        <h2 class="h2 reveal">Una política pública para <span class="hl">transformar</span> cómo aprendemos</h2>
+        <p class="lead reveal">
+          La Agenda Educativa Digital es el instrumento que orientará la transformación digital de la educación en el Ecuador:
+          traza el camino para que toda la comunidad aprenda <em>acerca</em> y <em>mediante</em> herramientas tecnológicas en entornos digitales.
+        </p>
+        <ul class="pillars">
+          <li class="reveal" style="--d:.05s"><b>Inclusiva</b><span>para todos los niveles y modalidades</span></li>
+          <li class="reveal" style="--d:.1s"><b>Intercultural</b><span>con contenidos en lenguas ancestrales</span></li>
+          <li class="reveal" style="--d:.15s"><b>Segura</b><span>frente al ciberacoso y la violencia digital</span></li>
+          <li class="reveal" style="--d:.2s"><b>Con enfoque de derechos</b><span>la educación digital como derecho habilitante</span></li>
+        </ul>
+        <div class="audience reveal">
+          <span class="audience__label">Pensada para:</span>
+          <span class="tag">Estudiantes</span><span class="tag">Docentes</span><span class="tag">Directivos</span><span class="tag">Familias</span><span class="tag">Personal administrativo</span><span class="tag">Jóvenes y adultos (EPJA)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAMINO / TIMELINE ============ -->
+  <section class="section journey" id="camino">
+    <div class="container">
+      <div class="section__head center">
+        <p class="eyebrow eyebrow--light reveal">No partimos desde cero</p>
+        <h2 class="h2 h2--light reveal">Diez años de aprendizajes nos traen hasta aquí</h2>
+        <p class="lead lead--light reveal">Cada agenda construyó sobre la anterior. La tercera llega para acelerar la transformación.</p>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline__line"><span id="timelineFill"></span></div>
+
+        <article class="tl reveal" data-reveal="up">
+          <div class="tl__dot"></div>
+          <span class="tl__years">2017 – 2021</span>
+          <h3>Sentando las bases</h3>
+          <p>Reducción de la brecha de acceso a infraestructura y conectividad.</p>
+          <ul class="tl__facts">
+            <li><b data-count="4500" data-prefix="+">0</b> instituciones conectadas a Internet</li>
+            <li><b data-count="141000" data-prefix="+">0</b> equipos computacionales entregados</li>
+          </ul>
+        </article>
+
+        <article class="tl reveal" data-reveal="up" style="--d:.15s">
+          <div class="tl__dot"></div>
+          <span class="tl__years">2021 – 2025</span>
+          <h3>El impulso post-pandemia</h3>
+          <p>Competencias y Ciudadanía Digital como respuesta a los desafíos de la pandemia.</p>
+          <ul class="tl__facts">
+            <li><b data-count="2339">0</b> recursos educativos digitales abiertos</li>
+            <li><b data-count="25">0</b> instituciones con Clubes de Robótica</li>
+          </ul>
+        </article>
+
+        <article class="tl tl--next reveal" data-reveal="up" style="--d:.3s">
+          <div class="tl__dot"><span></span></div>
+          <span class="tl__years">2026 – 2030</span>
+          <h3>La transformación</h3>
+          <p>Una hoja de ruta que trasciende periodos administrativos, con sostenibilidad, inclusión y pertinencia.</p>
+          <div class="tl__mystery"><span>Se revela muy pronto</span><i></i><i></i><i></i></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EJES ============ -->
+  <section class="section ejes" id="ejes">
+    <div class="container">
+      <div class="section__head center">
+        <p class="eyebrow reveal">Cinco ejes estratégicos</p>
+        <h2 class="h2 reveal">La Agenda se mueve en <span class="hl">5 direcciones</span></h2>
+        <p class="lead reveal">Toca cada eje para descubrir hacia dónde nos lleva.</p>
+      </div>
+
+      <div class="ejes__orbit">
+        <img src="assets/img/ejes.png" alt="" class="ejes__center" aria-hidden="true">
+
+        <div class="ejes__grid">
+          <button class="eje reveal" data-eje="0" style="--c:#008BF6;--d:0s">
+            <span class="eje__num">1.</span>
+            <img src="assets/img/eje1.png" alt="" class="eje__icon">
+            <span class="eje__title">Conectividad universal y acceso equitativo</span>
+            <span class="eje__more">Descubrir <i>+</i></span>
+          </button>
+          <button class="eje reveal" data-eje="1" style="--c:#7a4dff;--d:.08s">
+            <span class="eje__num">2.</span>
+            <img src="assets/img/eje2.png" alt="" class="eje__icon">
+            <span class="eje__title">Competencias digitales y ciudadanía digital</span>
+            <span class="eje__more">Descubrir <i>+</i></span>
+          </button>
+          <button class="eje reveal" data-eje="2" style="--c:#00b98a;--d:.16s">
+            <span class="eje__num">3.</span>
+            <img src="assets/img/eje3.png" alt="" class="eje__icon">
+            <span class="eje__title">Contenidos abiertos y colaborativos</span>
+            <span class="eje__more">Descubrir <i>+</i></span>
+          </button>
+          <button class="eje reveal" data-eje="3" style="--c:#e0a800;--d:.24s">
+            <span class="eje__num">4.</span>
+            <img src="assets/img/eje4.png" alt="" class="eje__icon">
+            <span class="eje__title">Innovación y gestión del conocimiento</span>
+            <span class="eje__more">Descubrir <i>+</i></span>
+          </button>
+          <button class="eje reveal" data-eje="4" style="--c:#e2569a;--d:.32s">
+            <span class="eje__num">5.</span>
+            <img src="assets/img/eje5.png" alt="" class="eje__icon">
+            <span class="eje__title">Comunidades digitales activas e informadas</span>
+            <span class="eje__more">Descubrir <i>+</i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eje modal -->
+  <div class="modal" id="ejeModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__card">
+      <button class="modal__close" data-close aria-label="Cerrar">×</button>
+      <div class="modal__head">
+        <img id="modalIcon" src="" alt="">
+        <div>
+          <span class="modal__kicker" id="modalKicker">Eje 1</span>
+          <h3 id="modalTitle">—</h3>
+        </div>
+      </div>
+      <p class="modal__desc" id="modalDesc"></p>
+      <div class="modal__meta">
+        <div class="modal__box"><span>Propósito</span><p id="modalPurpose"></p></div>
+        <div class="modal__box modal__box--goal"><span>Meta al 2030</span><p id="modalGoal"></p></div>
+      </div>
+      <p class="modal__sub">Algunas estrategias que llegan:</p>
+      <ul class="modal__chips" id="modalChips"></ul>
+      <div class="modal__nav">
+        <button class="btn btn--ghost-dark" id="modalPrev">← Anterior</button>
+        <button class="btn btn--blue" id="modalNext">Siguiente eje →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ LO QUE VIENE ============ -->
+  <section class="section coming" id="lo-que-viene">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow reveal">Un adelanto</p>
+        <h2 class="h2 reveal">Lo que se viene para<br><span class="hl">las aulas del Ecuador</span></h2>
+      </div>
+
+      <div class="bento">
+        <article class="card card--photo card--wide reveal" style="--img:url('../assets/img/foto-competencias.jpg')">
+          <div class="card__body">
+            <span class="card__tag">Docentes</span>
+            <h3>Microcredenciales en IA, robótica y pensamiento computacional</h3>
+            <p>Formación, certificación por niveles de dominio y rutas personalizadas para cada docente.</p>
+          </div>
+        </article>
+        <article class="card card--yellow reveal tilt" style="--d:.08s">
+          <span class="card__emoji">🤖</span>
+          <h3>Clubes de Robótica a nivel nacional</h3>
+          <p>Y programación en HTML, JavaScript y Python para entornos web, móvil y escritorio.</p>
+        </article>
+        <article class="card card--mint reveal tilt" style="--d:.12s">
+          <span class="card__emoji">🛰️</span>
+          <h3>Conectividad híbrida</h3>
+          <p>Fibra óptica, satélite y redes móviles para llegar a zonas de difícil acceso.</p>
+        </article>
+        <article class="card card--blue reveal tilt" style="--d:.16s">
+          <span class="card__emoji">🏫</span>
+          <h3>Aulas Digitales Multipropósito</h3>
+          <p>Del laboratorio de computación a espacios de aprendizaje colaborativo con tecnologías emergentes.</p>
+        </article>
+        <article class="card card--photo card--tall reveal" style="--img:url('../assets/img/foto-contenidos.jpg');--d:.1s">
+          <div class="card__body">
+            <span class="card__tag">Contenidos</span>
+            <h3>Más REDA, accesibles e interculturales</h3>
+            <p>Recursos certificados, adaptados a contextos rurales y en lenguas ancestrales, con búsqueda y recomendación inteligente.</p>
+          </div>
+        </article>
+        <article class="card card--white reveal tilt" style="--d:.2s">
+          <span class="card__emoji">🥽</span>
+          <h3>IA, Realidad Virtual, Aumentada y Extendida</h3>
+          <p>Lineamientos para su integración pedagógica ética, crítica y responsable.</p>
+        </article>
+        <article class="card card--white reveal tilt" style="--d:.24s">
+          <span class="card__emoji">🛡️</span>
+          <h3>Ciudadanía digital segura</h3>
+          <p>Prevención del ciberacoso, bienestar digital, salud mental y pensamiento crítico.</p>
+        </article>
+        <article class="card card--photo card--wide reveal" style="--img:url('../assets/img/foto-innovacion.jpg');--d:.1s">
+          <div class="card__body">
+            <span class="card__tag">Innovación</span>
+            <h3>Observatorio y Laboratorio de Innovación Educativa del Ecuador</h3>
+            <p>Decisiones basadas en evidencia, buenas prácticas sistematizadas, ferias, congresos y hackáthones.</p>
+          </div>
+        </article>
+        <article class="card card--navy reveal tilt" style="--d:.28s">
+          <span class="card__emoji">👩‍🏫</span>
+          <h3>Docentes TIC en cada institución</h3>
+          <p>Acompañamiento técnico-pedagógico y redes de soporte en territorio.</p>
+        </article>
+        <article class="card card--pink reveal tilt" style="--d:.32s">
+          <span class="card__emoji">📡</span>
+          <h3>Teleducación</h3>
+          <p>Un nuevo modelo con productos educomunicacionales en múltiples formatos y plataformas.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ METAS ============ -->
+  <section class="section goals" id="metas">
+    <div class="goals__dots" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section__head center">
+        <p class="eyebrow eyebrow--light reveal">Rumbo al 2030</p>
+        <h2 class="h2 h2--light reveal">Metas que nos <span class="hl hl--yellow">desafían</span></h2>
+        <p class="lead lead--light reveal">De dónde partimos y hacia dónde vamos.</p>
+      </div>
+
+      <div class="goals__grid">
+        <article class="goal reveal">
+          <div class="ring" style="--from:66.6;--to:80">
+            <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52" class="ring__bg"/><circle cx="60" cy="60" r="52" class="ring__base"/><circle cx="60" cy="60" r="52" class="ring__fg"/></svg>
+            <div class="ring__val"><b data-count="80" data-suffix="%">0</b></div>
+          </div>
+          <h3>Instituciones conectadas y equipadas</h3>
+          <p>Hoy <strong>66,6 %</strong> de las instituciones fiscales tienen Internet (8.245 de 12.377).</p>
+        </article>
+
+        <article class="goal reveal" style="--d:.1s">
+          <div class="ring" style="--from:0;--to:70">
+            <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52" class="ring__bg"/><circle cx="60" cy="60" r="52" class="ring__base"/><circle cx="60" cy="60" r="52" class="ring__fg"/></svg>
+            <div class="ring__val"><b data-count="70" data-suffix="%">0</b></div>
+          </div>
+          <h3>Docentes con competencias digitales</h3>
+          <p>Y al menos <strong>60 %</strong> de estudiantes. La línea base nace con la evaluación nacional 2026.</p>
+        </article>
+
+        <article class="goal reveal" style="--d:.2s">
+          <div class="ring" style="--from:66.6;--to:100">
+            <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52" class="ring__bg"/><circle cx="60" cy="60" r="52" class="ring__base"/><circle cx="60" cy="60" r="52" class="ring__fg"/></svg>
+            <div class="ring__val"><b data-count="3000" data-prefix="+">0</b></div>
+          </div>
+          <h3>Recursos digitales certificados</h3>
+          <p>Hoy más de <strong>2.000</strong> recursos, <strong>13 millones</strong> de visitas y <strong>3 millones</strong> de descargas.</p>
+        </article>
+
+        <article class="goal reveal" style="--d:.3s">
+          <div class="ring" style="--from:0;--to:15">
+            <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52" class="ring__bg"/><circle cx="60" cy="60" r="52" class="ring__base"/><circle cx="60" cy="60" r="52" class="ring__fg"/></svg>
+            <div class="ring__val"><b data-count="15" data-suffix="%">0</b></div>
+          </div>
+          <h3>Instituciones innovando</h3>
+          <p>Participando en iniciativas de innovación educativa digital del ecosistema nacional.</p>
+        </article>
+
+        <article class="goal reveal" style="--d:.4s">
+          <div class="ring" style="--from:0;--to:85">
+            <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52" class="ring__bg"/><circle cx="60" cy="60" r="52" class="ring__base"/><circle cx="60" cy="60" r="52" class="ring__fg"/></svg>
+            <div class="ring__val"><b data-count="85" data-suffix="%">0</b></div>
+          </div>
+          <h3>Acciones de la Agenda ejecutadas</h3>
+          <p>Y un nivel de madurez <strong>4 de 5</strong> en gobernanza digital educativa.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GLOSARIO ============ -->
+  <section class="section glossary" id="glosario">
+    <div class="container glossary__grid">
+      <div class="glossary__intro">
+        <p class="eyebrow reveal">Palabras del futuro</p>
+        <h2 class="h2 reveal">¿Hablas el idioma de la <span class="hl">transformación digital</span>?</h2>
+        <p class="lead reveal">La Agenda trae su propio glosario. Pon a prueba lo que sabes: gira cada tarjeta.</p>
+        <div class="quiz reveal">
+          <span id="quizCount">0</span>/<span id="quizTotal">8</span> conceptos descubiertos
+          <div class="quiz__bar"><span id="quizBar"></span></div>
+        </div>
+        <img src="assets/img/gato.png" alt="" aria-hidden="true" class="glossary__cat float">
+      </div>
+
+      <div class="flips" id="flips"></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section cta" id="unete">
+    <div class="cta__card reveal" data-reveal="zoom">
+      <img src="assets/img/puntos.png" alt="" aria-hidden="true" class="cta__dots">
+      <img src="assets/img/nina.png" alt="" aria-hidden="true" class="cta__girl">
+      <div class="cta__copy">
+        <p class="eyebrow eyebrow--light">Cuenta regresiva</p>
+        <h2 class="h2 h2--light">El futuro de la educación se está conectando. <span class="hl hl--yellow">¿Te sumas?</span></h2>
+        <p class="lead lead--light">Comparte la expectativa con tu comunidad educativa y mantente atento a los canales oficiales del Ministerio de Educación, Deporte y Cultura.</p>
+        <div class="cta__actions">
+          <button class="btn btn--yellow" id="shareBtn">Compartir la noticia <span aria-hidden="true">↗</span></button>
+          <span class="hashtag">#AgendaEducativaDigital</span>
+        </div>
+        <p class="cta__toast" id="shareToast" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__mark brand__mark--blue">AE</span>
+        <div>
+          <strong>Agenda Educativa Digital 2026–2030</strong>
+          <span>SIEDI - Dirección de Tecnologías para la Educación</span>
+        </div>
+      </div>
+      <div class="footer__gov">
+        <span class="footer__rep">GOBIERNO<br>DEL ECUADOR</span>
+        <span class="footer__min"><em>Ministerio de Educación,<br>Deporte y Cultura</em></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
